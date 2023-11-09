@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+    color: #ff0000; /* Sets the color of all links to red (#ff0000) */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+a.roblox-link {
+    color: #69747c; /* Sets the color of the Roblox link to blue (#0099ff) */
+}
+
+a.twitter-link {
+    color: #1da1f2; /* Sets the color of the Twitter link to Twitter's brand color (#1da1f2) */
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 30px; /* Adjust the width of the icons as needed */
+    margin-right: 10px; /* Adds space between the icon and the text */
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Adds rounded corners to the links */
+    overflow: hidden; /* Ensures the border-radius applies correctly */
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px; /* Set the height to maintain aspect ratio */
+    border-radius: 30%; /* Rounds the corners to create a circular shape */
+    margin-right: 10px;
+}
