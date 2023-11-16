@@ -19,6 +19,10 @@ a.twitter-link {
     color: #1da1f2; /* Sets the color of the Twitter link to Twitter's brand color (#1da1f2) */
 }
 
+a.minecraft-link {
+    color: #55d966;
+}
+
 .social-links a {
     display: flex;
     align-items: center;
